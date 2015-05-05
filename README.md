@@ -1,7 +1,5 @@
 # GooglePlayVersionChecker
-when you publish to googleplay new version application,
-
-maybe you want all your application user update new version.
+when you publish new version android app,maybe you want all your application user update new version.
 
 this process follow 4-steps.
 1. check googleplay app version
