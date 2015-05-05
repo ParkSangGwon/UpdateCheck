@@ -4,11 +4,8 @@ when you publish new version android app,maybe you want all your application use
 this process follow 4-steps.
 
 1. check googleplay app version
-
 2. check device app version
-
 3. compare version
-
 4. alert new version update!
 
 
