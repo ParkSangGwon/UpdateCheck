@@ -2,9 +2,13 @@
 when you publish new version android app,maybe you want all your application user update new version.
 
 this process follow 4-steps:
+
 1. check googleplay app version
+
 2. check device app version
+
 3. compare version
+
 4. alert new version update!
 
 ## How to use
@@ -12,6 +16,7 @@ this process follow 4-steps:
 ```java
   String store_version = MarketVersionChecker.getMarketVersion(getPackageName());
 ```
+
 2. check device app version
 ```java
   String device_version = getPackageManager().getPackageInfo(getPackageName(), 0).versionName;
@@ -19,13 +24,13 @@ this process follow 4-steps:
 
 3. compare version
 ```java
-  if (store_version.compareTo(device_version) > 0) {
-						// need update
+ if (store_version.compareTo(device_version) > 0) {
+	// need update
 
-					} else {
-						// no need update
+ } else {
+	// no need update
 
-					}
+ }
 ```
 
 
