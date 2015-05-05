@@ -1,4 +1,4 @@
-# GooglePlayVersionChecker
+# UpdateCheck
 when you publish new version android app,maybe you want all your application user update new version.
 
 this process follow 4-steps.
