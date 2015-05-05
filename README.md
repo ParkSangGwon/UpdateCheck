@@ -12,17 +12,17 @@ this process follow 4-steps:
 4. alert new version update!
 
 ## How to use
-1. check googleplay app version
+- check googleplay app version
 ```java
   String store_version = MarketVersionChecker.getMarketVersion(getPackageName());
 ```
 
-2. check device app version
+- check device app version
 ```java
   String device_version = getPackageManager().getPackageInfo(getPackageName(), 0).versionName;
 ```
 
-3. compare version
+- compare version
 ```java
  if (store_version.compareTo(device_version) > 0) {
 	// need update
